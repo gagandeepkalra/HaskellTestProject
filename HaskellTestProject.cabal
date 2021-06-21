@@ -24,6 +24,9 @@ source-repository head
   location: https://github.com/gagandeepkalra/HaskellTestProject
 
 library
+  exposed-modules:
+      HelloWorld
+      TypesAndTypeClasses
   other-modules:
       Paths_HaskellTestProject
   hs-source-dirs:

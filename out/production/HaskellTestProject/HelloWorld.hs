@@ -19,7 +19,7 @@ triple :: Integer -> Integer
 triple x = double x + a
 
 b :: Integer
-b = if False then 5 else 6 + 1
+b = if True then 5 else 6 + 1
 
 
 
