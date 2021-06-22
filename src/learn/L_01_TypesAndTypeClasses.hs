@@ -1,4 +1,4 @@
-module TypesAndTypeClasses where
+module L_01_TypesAndTypeClasses where
 
 equal :: Eq a => a -> a -> Bool
 equal a b = a == b
@@ -20,3 +20,6 @@ a = read "1" :: Int
 
 convertFromIntegral :: (Integral a, Num b) => a -> b
 convertFromIntegral = fromIntegral
+
+addToLength :: Foldable t => t a -> Double
+addToLength ls = (convertFromIntegral . length) ls + 3.2
