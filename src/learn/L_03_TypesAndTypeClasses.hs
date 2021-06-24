@@ -1,4 +1,4 @@
-module L_01_TypesAndTypeClasses where
+module L_03_TypesAndTypeClasses where
 
 equal :: Eq a => a -> a -> Bool
 equal a b = a == b

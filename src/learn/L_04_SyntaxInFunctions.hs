@@ -1,4 +1,4 @@
-module SyntaxInFunctions where
+module L_04_SyntaxInFunctions where
 
 -- pattern matching
 factorial :: (Eq p, Num p) => p -> p
